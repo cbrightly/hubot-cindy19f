@@ -22,9 +22,15 @@
     "hubot-scripts": "^2.16.2",
     "hubot-shell": "^1.0.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.4.2"
+    "hubot-slack": "^4.0.0",
+    "snyk": "^1.49.4"
   },
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
