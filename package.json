@@ -5,7 +5,7 @@
   "author": "Jeff <rustyangel@gmail.com>",
   "description": "Not a spambot.",
   "dependencies": {
-    "hoek": "^2.14.0",
+    "hoek": "^4.2.1",
     "hubot": "^2.18.0",
     "hubot-caniuse": "^1.0.3",
     "hubot-diagnostics": "0.0.1",
@@ -23,14 +23,15 @@
     "hubot-shell": "^1.0.2",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^4.0.0",
-    "snyk": "^1.49.4"
+    "snyk": "^1.83.0"
   },
   "engines": {
     "node": "0.10.x"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }
