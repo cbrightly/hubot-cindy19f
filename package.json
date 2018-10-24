@@ -6,7 +6,7 @@
   "description": "Not a spambot.",
   "dependencies": {
     "hoek": "^4.2.1",
-    "hubot": "^2.18.0",
+    "hubot": "^3.1.0",
     "hubot-caniuse": "^1.0.3",
     "hubot-diagnostics": "0.0.1",
     "hubot-factoids": "^0.2.7",
