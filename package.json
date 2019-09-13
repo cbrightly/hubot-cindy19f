@@ -8,7 +8,7 @@
     "hoek": "^4.2.1",
     "hubot": "^3.1.0",
     "hubot-caniuse": "^1.0.3",
-    "hubot-diagnostics": "0.0.1",
+    "hubot-diagnostics": "0.0.2",
     "hubot-factoids": "^0.2.7",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
