@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -77,3 +77,8 @@ patch:
   'npm:mime:20170907':
     - hubot > express > connect > serve-static > send > mime:
         patched: '2019-09-11T18:52:33.008Z'
+  SNYK-JS-LODASH-567746:
+    - hubot-slack > lodash:
+        patched: '2020-05-01T08:12:44.441Z'
+    - hubot-slack > @slack/client > lodash:
+        patched: '2020-05-01T08:12:44.441Z'
