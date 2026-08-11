@@ -77,3 +77,6 @@ patch:
   'npm:mime:20170907':
     - hubot > express > connect > serve-static > send > mime:
         patched: '2019-09-11T18:52:33.008Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - hubot-slack > @slack/client > https-proxy-agent:
+        patched: '2019-10-04T08:12:36.964Z'
